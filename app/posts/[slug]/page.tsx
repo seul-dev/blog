@@ -23,7 +23,9 @@ export default function PostLayout({ params }: { params: { slug: string } }) {
         </time>
         <h1 className='text-3xl font-bold'>{post.title}</h1>
       </div>
-      <Mdx code={post.body.code} />
+      <div className='prose dark:prose-invert'>
+        <Mdx code={post.body.code} />
+      </div>
     </article>
   );
 }
