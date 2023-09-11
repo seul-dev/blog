@@ -1,6 +1,0 @@
----
-title: "test posting "
-date: "2023-9-11"
----
-
-how it works? ? 
